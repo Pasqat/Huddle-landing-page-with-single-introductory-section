@@ -1,5 +1,5 @@
 /* * Custom Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 /* --------------------------------------
@@ -109,6 +109,7 @@ body {
 
 .social ion-icon {
   color: #fff;
+  font-size: 1.5rem;
 }
 
 .social .icon.fb:hover {
@@ -155,12 +156,12 @@ body {
   }
 
   .section .introduction {
-    padding: 0 0 0 3rem;
+    padding: 2rem 2rem 0 3rem;
   }
 
   .section .introduction h1 {
-    font-weight: 700;
-    font-size: 3rem;
+    font-weight: 500;
+    font-size: 2.8rem;
     line-height: 3.5rem;
   }
 
