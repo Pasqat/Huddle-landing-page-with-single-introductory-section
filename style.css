@@ -155,7 +155,7 @@ body {
   }
 
   .section .introduction {
-    padding: 0 0 0 3rem ;
+    padding: 0 0 0 3rem;
   }
 
   .section .introduction h1 {
@@ -168,8 +168,8 @@ body {
     padding: 1rem 4rem;
   }
 
-  .social{
-    justify-content: end;
+  .social {
+    justify-content: flex-end;
     padding: 0;
   }
 }
