@@ -1,0 +1,185 @@
+/* * Custom Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* --------------------------------------
+font-family: 'Poppins', sans-serif;     -
+font-family: 'Open Sans', sans-serif;   -
+---------------------------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: hsl(257, 40%, 49%);
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  background-image: url(./images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: ;
+}
+
+.container {
+  padding: 2.2rem;
+  min-height: 100vh;
+}
+
+.header {
+  padding-bottom: 3rem;
+}
+
+.header img {
+  max-width: 8rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.section .mockups {
+  padding-bottom: 3rem;
+}
+
+.section .introduction h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 400;
+  padding: 1rem 0;
+}
+
+.text {
+  padding-bottom: 1.5rem;
+}
+
+.section .introduction .button {
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  padding: 0.5rem 4rem;
+  margin: auto;
+  border-radius: 3rem;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
+}
+
+.section .introduction .button:hover {
+  background: hsl(288, 100%, 90%);
+  box-shadow: 0 1px 4px 0 hsla(0, 0%, 0%, 0.8);
+  cursor: pointer;
+}
+
+.section .introduction .button a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: hsl(257, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.social .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.social .icon a {
+  vertical-align: middle;
+}
+
+.social ion-icon {
+  color: #fff;
+}
+
+.social .icon.fb:hover {
+  background: hsl(228, 45%, 44%);
+}
+
+.social .icon.tw:hover {
+  background: hsl(209, 45%, 44%);
+}
+
+.social .icon.in:hover {
+  background: hsl(286, 45%, 44%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(227, 73%, 80%);
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    padding: 4rem;
+  }
+
+  .header img {
+    max-width: 100%;
+  }
+
+  .section {
+    flex-direction: row;
+  }
+
+  .section .mockups {
+    padding: 0;
+  }
+
+  .section .introduction {
+    padding: 0 0 0 3rem ;
+  }
+
+  .section .introduction h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+
+  .section .introduction .button {
+    padding: 1rem 4rem;
+  }
+
+  .social{
+    justify-content: end;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section .introduction {
+    text-align: center;
+  }
+
+  .section .mockups img {
+    width: 100%;
+  }
+}
